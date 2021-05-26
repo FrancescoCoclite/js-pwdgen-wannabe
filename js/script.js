@@ -9,5 +9,5 @@ var colore = prompt('Inserisci colore preferito');
 console.log(colore);
 
 var somma = nome + cognome + colore + '21';
-document.getElementById('testo').innerHTML = somma.toLowerCase();
+document.getElementById('testo').innerHTML += somma.toLowerCase();
 console.log(somma);
